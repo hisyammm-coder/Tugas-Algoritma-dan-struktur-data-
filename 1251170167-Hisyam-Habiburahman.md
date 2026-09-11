@@ -33,5 +33,17 @@
 
 #### 2. Skenario 2 (Peta Navigasi Rute Perjalanan)
 ##### Sebuah aplikasi GPS membutuhkan cara untuk memodelkan lokasi-lokasi kota beserta jalan penghubungnya guna mencari rute tercepat.
-- Struktur data terpilih:
-- Alasaan: 
+- Struktur data terpilih: Graph
+- Alasan: Berdasarkan yang saya baca pada artikel <https://journal.arimsi.or.id/index.php/Algoritma/article/download/923/922/4973>, menurut saya cara kerja stack yang berurutan dan saling berhubungan dalam suatu arah, sangat cocok untuk ini karena peta navigasi rute perjalanan pun saling terhubung antara satu sama lain,sehingga dapat menghubungkan dari satu titik ke titik lainnya dengan mudah.
+
+#### 3. Skenario 3 (Sistem login pengguna berbasis username)
+##### Sistem butuh mencari data akun dari jutaan user secara instan berdasarkan Username saat proses login.
+- Struktur data terpilih: Hash table
+- karna cara kerja hash table yang meenyimpan serta mengambil data secara efisien, yaitu seperti kunci hotel yang sudah di simpan dan dapat diambil dengan sangat mudah dan efisien, maka hash table cocok untuk skenario ini, karna sistem dapat mengelompokkan dan menemukan data akun dalam pencarian dengan sangat mudah.
+
+  # Bagian C: Eksplorasi analogi mandiri
+  
+- Struktur data dipilih: Hash Table
+- Nama Analogi: Kartu nomor berbahan kertas penyitaan barang terlarang yang dibawa pada suatu event turnament futsal.
+- Cara Kerja: Pada saat ada barang sitaan, Petugas menandai barang tersebut dengan nomor, dan nomor tersebut diberikan kepada pelanggar, dan ketika pelanggar ingin mengambilnya kembali pada saat event telah selesai, pelanggar memberikan nomor yang diberikan di awal kepada petugas, dan petugas mengambil barang tersebut dengan nomor yang sudah ditandai pada saat awal penyitaan.
+- Mencerminkan kekurangan / kelebihan: Kelebihannya, yaitu Proses pencarian barang yang mudah, karena lewat nomor yang diberikan oleh pelanggar kepada petugas. Kekurangannya, Jika Nomor yang diberikan kepada pelanggar hilang, atau rusak, petugas sulit untuk menemukan barang yang ingin diambil oleh pelanggar.
